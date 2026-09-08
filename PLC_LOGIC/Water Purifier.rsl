@@ -1,0 +1,359 @@
+FILE,LAD 2:
+SOR,0 BST,1 XIC,I:1/0 NXB,1 XIC,B3:0/0 BND,1 XIO,I:1/1 XIO,I:1/4 XIO,I:1/3 OTE,B3:0/0 EOR,0
+RCM,
+SOR,1 XIC,B3:0/0 XIO,I:1/2 XIO,I:1/3 OTE,O:2/0 EOR,1
+RCM,
+SOR,2 XIC,O:2/0 OTE,O:2/1 EOR,2
+RCM,
+SOR,3 XIC,O:2/0 TON,T4:0,50 EOR,3
+RCM,
+SOR,4 XIC,T4:0/DN OTE,O:2/2 EOR,4
+RCM,
+SOR,5 XIC,O:2/2 TON,T4:1,200 EOR,5
+RCM,
+SOR,6 XIC,I:1/2 OTE,O:2/3 EOR,6
+RCM,
+SOR,7 XIC,T4:1/DN OTE,O:2/4 EOR,7
+RCM,
+SOR,8 END,8
+RCM,
+FILE,SBR 3:
+SOR,0 END,0
+RCM,
+FILE,SBR 4:
+SOR,0 END,0
+RCM,
+FILE,SBR 5:
+SOR,0 END,0
+RCM,
+FILE,SBR 6:
+SOR,0 END,0
+RCM,
+FILE,SBR 7:
+SOR,0 END,0
+RCM,
+FILE,SBR 8:
+SOR,0 END,0
+RCM,
+FILE,SBR 9:
+SOR,0 END,0
+RCM,
+BTBL
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+NTBL
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+FTBL
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+SYMBOLS
+I:1/0 start_pb
+I:1/1 stop
+I:1/4 E-Stop
+B3:0/0 System run
+I:1/2 Raw Tank Low Level
+I:1/3 Pure Tank Full
+O:2/0 feed water pump
+O:2/1 Solenoid value
+T4:0 Delay before UV
+T4:0/DN Timer 1 Done
+O:2/2 UV Lamp
+T4:1 Purification Time
+O:2/3 Alarm Buzzer
+O:2/4 Purification complent indica
+T4:1/DN Timer 2 Done
